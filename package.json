@@ -1,0 +1,22 @@
+{
+    "name": "@reflect-ui/namings",
+    "homepage": "https://reflect-ui.com",
+    "repository": "https://github.com/bridgedxyz/reflect-namings",
+    "license": "MIT",
+    "author": "Reflect UI And Bridged Authors",
+    "private": false,
+    "version": "0.0.0",
+    "scripts": {
+        "prepack": "tsc"
+    },
+    "devDependencies": {
+        "typescript": "^4.2.4"
+    },
+    "files": [
+        "README.md",
+        "LICENSE",
+        "dist/index.js",
+        "dist/index.d.ts",
+        "dist/lib/*/**"
+    ]
+}
