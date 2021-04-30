@@ -5,8 +5,9 @@
     "license": "MIT",
     "author": "Reflect UI And Bridged Authors",
     "private": false,
-    "version": "0.0.1",
+    "version": "0.0.3",
     "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "scripts": {
         "prepack": "tsc"
     },
@@ -18,6 +19,6 @@
         "LICENSE",
         "dist/index.js",
         "dist/index.d.ts",
-        "dist/lib/*/**"
+        "dist/lib/**/*"
     ]
 }

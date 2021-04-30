@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
     "lib": ["DOM", "ES2020"],
-    "outDir": "dist"
+    "module": "commonjs",
+    "target": "es5",
+    "outDir": "dist",
+    "declaration": true
   },
   "exclude": ["node_modules", "dist"]
 }
